@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "CreditApp.BlazorClient",
   "resources": {
-    "hash": "sha256-tvsWnv8R9gNFQtMp4DBkRkKm0jmjOHod1ME2XYU1bIA=",
+    "hash": "sha256-N6t63dU/H7T3AsTKbSB7wTJkw9Je0Vqjb+rAlzb6Y6Q=",
     "jsModuleNative": {
       "dotnet.native.8.0.18.yrhijry0s8.js": "sha256-1QpKPnxEuRCElzcp+e3MrovJeAJkuzqKmRQay/6Aa08="
     },
@@ -208,14 +208,14 @@
       "mscorlib.wasm": "sha256-UnQd0YPXNpwbXsKqO8RAqgUVuwZsSpprfAIPpdV/y1Q=",
       "netstandard.wasm": "sha256-/QbD8JDZyYwfyk89W3qJL3HTAINDCVziZIySHIZcDhw=",
       "System.Private.CoreLib.wasm": "sha256-oBqNgH7R24FqGbaL3XnfQDqn3rk28jERFosgAryKT6U=",
-      "CreditApp.Application.wasm": "sha256-fa7sXFsuG+0el0IQSiW5KBK5NWR/bJvKAjLWk9NmzzQ=",
-      "CreditApp.Domain.wasm": "sha256-1qP5vSut3+U9vpDsz3i5iL1SSxb/LVgM7EFBzdn2ExY=",
-      "CreditApp.BlazorClient.wasm": "sha256-SbfZ4wN5O1YWP1LgmwOYBM0dBmrMNTvx43vXq4ZaqAs="
+      "CreditApp.Application.wasm": "sha256-O4Q4y1y2EJD8e3yf0NhbwCZi3S+Mqolf3r6IoZqb5us=",
+      "CreditApp.Domain.wasm": "sha256-m6xs2YlzBYE+AlbWSSBHvjgVfJjY7wd8y2snSWOAy8Q=",
+      "CreditApp.BlazorClient.wasm": "sha256-zrKAmBDf/QKnpo9t0KYyZ2GBvvzuPs0V0B2anFoLvHQ="
     },
     "pdb": {
-      "CreditApp.Application.pdb": "sha256-DahoMUZQ0qbyoUbHuWAwixLGseGYw2CujE2V6IAIwMk=",
-      "CreditApp.Domain.pdb": "sha256-AUj5AugEv0xEO9akq4dkmrkfSm/AAw/OcOLa9cF8xTk=",
-      "CreditApp.BlazorClient.pdb": "sha256-Adt34I+p5vpvuBOgoRv3OdW4fN6phUguwdl60BE/rmY="
+      "CreditApp.Application.pdb": "sha256-e71yJZhQUx1v/kSU9t9cS2TCkgb3buLQp6fWHiOhZCI=",
+      "CreditApp.Domain.pdb": "sha256-PbhTjlXUBAQviEx5fyR8qEjWHjU52ehxkAv4ItoSlI0=",
+      "CreditApp.BlazorClient.pdb": "sha256-dBGk9i3gQErrk58ylnUSLM2YXHbPOa7M1HKMrL/GNzU="
     }
   },
   "cacheBootResources": true,
