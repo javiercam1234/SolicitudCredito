@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CreditApp.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39473ab22514ff6c83b4013867fbcf6a711ba046")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e071c07b4cc969a29b968b2dbc5901c5eedf6ba")]
+>>>>>>> e88367b (Primer commit - subida inicial del proyecto)
 [assembly: System.Reflection.AssemblyProductAttribute("CreditApp.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CreditApp.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

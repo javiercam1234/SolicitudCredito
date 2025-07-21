@@ -66,6 +66,7 @@ CreditApp permite gestionar solicitudes de crédito de clientes. Incluye funcion
 
 ## Licencia
 
+<<<<<<< HEAD
 MIT
 
 
@@ -86,3 +87,6 @@ A continuación se muestra una captura de la interfaz del sistema desde el naveg
 
 
 
+=======
+MIT
+>>>>>>> e88367b (Primer commit - subida inicial del proyecto)
