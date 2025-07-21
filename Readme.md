@@ -75,17 +75,16 @@ MIT
 
 A continuación se muestra una captura de la interfaz del sistema desde el navegador:
 
-![1](assets/Capturapantalla-2025-07-21-132311.png)
-![2](assets/Capturapantalla-2025-07-21-132648.png)
-![3](assets/Capturapantalla-2025-07-21-132705.png)
-![4](assets/Capturapantalla-2025-07-21-132718.png)
-![5](assets/Capturapantalla-2025-07-21-132741.png)
-![6](assets/Capturapantalla-2025-07-21-132807.png)
-![7](assets/Capturapantalla-2025-07-21-132825.png)
-![8](assets/Capturapantalla-2025-07-21-132857.png)
-![9](assets/Capturapantalla-2025-07-21-132920.png)
-![10](assets/Capturapantalla-2025-07-21-132940.png)
-
+![1](assets/1.png)
+![2](assets/2.png)
+![3](assets/3.png)
+![4](assets/4.png)
+![5](assets/5.png)
+![6](assets/6.png)
+![7](assets/7.png)
+![8](assets/8.png)
+![9](assets/9.png)
+![10](assets/10.png)
 
 
 
