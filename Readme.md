@@ -75,16 +75,16 @@ MIT
 
 A continuación se muestra una captura de la interfaz del sistema desde el navegador:
 
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132311.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132648.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132705.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132718.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132741.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132807.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132825.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132857.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132920.png)
-![Vista del sistema](assets/Capturapantalla-2025-07-21-132940.png)
+![Vista del sistema1](assets/Capturapantalla-2025-07-21-132311.png)
+![Vista del sistema2](assets/Capturapantalla-2025-07-21-132648.png)
+![Vista del sistema3](assets/Capturapantalla-2025-07-21-132705.png)
+![Vista del sistema4](assets/Capturapantalla-2025-07-21-132718.png)
+![Vista del sistema5](assets/Capturapantalla-2025-07-21-132741.png)
+![Vista del sistema6](assets/Capturapantalla-2025-07-21-132807.png)
+![Vista del sistema7](assets/Capturapantalla-2025-07-21-132825.png)
+![Vista del sistema8](assets/Capturapantalla-2025-07-21-132857.png)
+![Vista del sistema9](assets/Capturapantalla-2025-07-21-132920.png)
+![Vista del sistema10](assets/Capturapantalla-2025-07-21-132940.png)
 
 
 
