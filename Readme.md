@@ -66,27 +66,27 @@ CreditApp permite gestionar solicitudes de crédito de clientes. Incluye funcion
 
 ## Licencia
 
-<<<<<<< HEAD
+ 
 MIT
+
 
 
 ## Vista del sistema 🖼️
 
 A continuación se muestra una captura de la interfaz del sistema desde el navegador:
 
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132311.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132648.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132705.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132718.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132741.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132807.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132825.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132857.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132920.png)
-![Vista del sistema](assets/Captura de pantalla 2025-07-21 132940.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132311.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132648.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132705.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132718.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132741.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132807.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132825.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132857.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132920.png)
+![Vista del sistema](assets/Capturapantalla-2025-07-21-132940.png)
 
 
 
-=======
-MIT
->>>>>>> e88367b (Primer commit - subida inicial del proyecto)
+
+ 
