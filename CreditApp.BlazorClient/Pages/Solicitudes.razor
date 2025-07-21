@@ -1,0 +1,156 @@
+ 
+@page "/solicitudes"
+
+@using CreditApp.Domain.Enums
+@inject ISolicitudCreditoService SolicitudService
+@inject IJSRuntime JSRuntime
+
+<h3>Gestión de Solicitudes de Crédito</h3>
+
+@if (isLoading)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <div class="table-responsive">
+        @if (solicitudes?.Count > 0)
+        {
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Monto</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var solicitud in solicitudes)
+                    {
+                        <tr>
+                            <td>@solicitud.NombreCliente</td>
+                            <td>@solicitud.Monto.ToString("C")</td>
+                            <td>@solicitud.Estado</td>
+                            <td>
+                                <button class="btn btn-sm btn-primary me-1" @onclick="() => EditarSolicitud(solicitud)">Editar</button>
+                                <button class="btn btn-sm btn-danger" @onclick="() => EliminarSolicitud(solicitud.Id)">Eliminar</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No hay solicitudes registradas.</p>
+        }
+    </div>
+
+    <button class="btn btn-success mt-3" @onclick="Nuevo">Agregar Solicitud</button>
+}
+
+<!-- Modal -->
+<div class="modal fade" id="solicitudModal" tabindex="-1" aria-labelledby="solicitudModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="solicitudModalLabel">@modalTitle</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+      </div>
+      <div class="modal-body">
+        <EditForm Model="solicitudEdit" OnValidSubmit="GuardarSolicitud">
+            <DataAnnotationsValidator />
+            <ValidationSummary />
+
+            <div class="mb-3">
+                <label for="nombreCliente" class="form-label">Nombre Cliente</label>
+                <InputText id="nombreCliente" class="form-control" @bind-Value="solicitudEdit.NombreCliente" />
+            </div>
+
+            <div class="mb-3">
+                <label for="monto" class="form-label">Monto</label>
+                <InputNumber id="monto" class="form-control" @bind-Value="solicitudEdit.Monto" />
+            </div>
+
+            <InputSelect id="estado" class="form-select" @bind-Value="solicitudEdit.Estado">
+                <option value="">-- Selecciona estado --</option>
+                <option value="Pendiente">Pendiente</option>
+                <option value="Aprobada">Aprobada</option>
+                <option value="Rechazada">Rechazada</option>
+            </InputSelect>
+
+            <button type="submit" class="btn btn-primary me-2">Guardar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+        </EditForm>
+      </div>
+    </div>
+  </div>
+</div>
+
+@code {
+    private List<SolicitudCredito> solicitudes;
+    private bool isLoading = true;
+
+    private SolicitudCredito solicitudEdit = new SolicitudCredito();
+    private int editarId = 0;
+    private string modalTitle = "Nueva Solicitud";
+
+    protected override async Task OnInitializedAsync()
+    {
+        await CargarSolicitudes();
+    }
+
+    private async Task CargarSolicitudes()
+    {
+        isLoading = true;
+        solicitudes = await SolicitudService.GetAllAsync();
+        isLoading = false;
+        StateHasChanged();
+    }
+
+    private async Task Nuevo()
+    {
+        editarId = 0;
+        solicitudEdit = new SolicitudCredito();
+        modalTitle = "Nueva Solicitud";
+        await JSRuntime.InvokeVoidAsync("bootstrapInterop.showModal", "#solicitudModal");
+    }
+
+    private async Task EditarSolicitud(SolicitudCredito solicitud)
+    {
+        editarId = solicitud.Id;
+        solicitudEdit = new SolicitudCredito
+        {
+            Id = solicitud.Id,
+            NombreCliente = solicitud.NombreCliente,
+            Monto = solicitud.Monto,
+            Estado = solicitud.Estado
+        };
+        modalTitle = "Editar Solicitud";
+        await JSRuntime.InvokeVoidAsync("bootstrapInterop.showModal", "#solicitudModal");
+    }
+
+    private async Task GuardarSolicitud()
+    {
+        if (editarId == 0)
+        {
+            await SolicitudService.CreateAsync(solicitudEdit);
+        }
+        else
+        {
+            await SolicitudService.UpdateAsync(solicitudEdit);
+        }
+        await CargarSolicitudes();
+        await JSRuntime.InvokeVoidAsync("bootstrapInterop.hideModal", "#solicitudModal");
+    }
+
+    private async Task EliminarSolicitud(int id)
+    {
+        if (await JSRuntime.InvokeAsync<bool>("confirm", $"¿Está seguro de eliminar la solicitud {id}?"))
+        {
+            await SolicitudService.DeleteAsync(id);
+            await CargarSolicitudes();
+        }
+    }
+}
