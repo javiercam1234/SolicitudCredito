@@ -1,0 +1,12 @@
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\bin\Debug\net8.0\CreditApp.Domain.deps.json
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\bin\Debug\net8.0\CreditApp.Domain.dll
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\bin\Debug\net8.0\CreditApp.Domain.pdb
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.AssemblyInfoInputs.cache
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.AssemblyInfo.cs
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.sourcelink.json
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.dll
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\refint\CreditApp.Domain.dll
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\CreditApp.Domain.pdb
+C:\Users\Javier\source\repos\Credito\CreditApp.Domain\obj\Debug\net8.0\ref\CreditApp.Domain.dll

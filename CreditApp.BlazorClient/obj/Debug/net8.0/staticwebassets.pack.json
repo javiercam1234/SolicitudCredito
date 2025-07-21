@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\obj\\Debug\\net8.0\\compressed\\w6qq05hxw4.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\CreditApp.BlazorClient.styles.css",
+      "PackagePath": "staticwebassets\\CreditApp.BlazorClient.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Javier\\source\\repos\\Credito\\CreditApp.BlazorClient\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CreditApp.BlazorClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CreditApp.BlazorClient.props",
+      "PackagePath": "build\\CreditApp.BlazorClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CreditApp.BlazorClient.props",
+      "PackagePath": "buildMultiTargeting\\CreditApp.BlazorClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CreditApp.BlazorClient.props",
+      "PackagePath": "buildTransitive\\CreditApp.BlazorClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
